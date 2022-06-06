@@ -1,0 +1,734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col-md-3"
+  >
+    <div
+      class="filter-row"
+    >
+      <label>
+        Şehir Seçim.
+      </label>
+      <div>
+        
+        <select
+          class="form-select"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Seçim Yapın
+          </option>
+          
+          <option
+            value="34"
+          >
+            İstanbul
+          </option>
+          <option
+            value="6"
+          >
+            Ankara
+          </option>
+          <option
+            value="35"
+          >
+            İzmir
+          </option>
+          
+        </select>
+        
+      </div>
+    </div>
+    <div
+      class="filter-row"
+    >
+      <label>
+        Arama Yapın.
+      </label>
+      <div>
+        
+        <input
+          class="form-control search-input"
+          placeholder="Lütfen Arama Yapın.."
+          type="text"
+        />
+        
+      </div>
+    </div>
+    <div
+      class="btn-group filter-buttons"
+    >
+      <button
+        class="btn btn-primary"
+        data-test-id="search-btn"
+        type="button"
+      >
+        
+        Ara
+        
+      </button>
+      <button
+        class="btn btn-primary"
+        data-test-id="clear-btn"
+        type="button"
+      >
+        
+        Temizle
+        
+      </button>
+    </div>
+  </div>
+  <div
+    class="col-md-9"
+  >
+    <!--v-if-->
+    <div>
+      <div
+        class="filter-detail"
+      >
+        <h1>
+          Toplam 9 adet ilan bulundu..
+        </h1>
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            frontend developer 1
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul üsküdar adresinde tam zamanlı çalışacak frontend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Backend developer 1
+          </h5>
+          <p
+            class="card-text"
+          >
+            Ankara mamak adresinde  parttime(remote) çalışacak backend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            mobile developer 1
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul fatih lokasyonunda hibrit olarak haftada 2 gün ofis 3 gün remote şeklinde çalışacak android developer aranmaktadır
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      
+      <nav
+        class="job-pagination"
+      >
+        <ul
+          class="pagination"
+        >
+          
+          <li
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              Önceki
+              
+            </a>
+          </li>
+          
+          <li
+            active="true"
+            class="page-item active"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              1
+              
+            </a>
+          </li>
+          <li
+            active="false"
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              2
+              
+            </a>
+          </li>
+          <li
+            active="false"
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              3
+              
+            </a>
+          </li>
+          
+          <li
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              Sonraki
+              
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  class="row"
+>
+  <div
+    class="col-md-3"
+  >
+    <div
+      class="filter-row"
+    >
+      <label>
+        Şehir Seçim.
+      </label>
+      <div>
+        
+        <select
+          class="form-select"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Seçim Yapın
+          </option>
+          
+          <option
+            value="34"
+          >
+            İstanbul
+          </option>
+          <option
+            value="6"
+          >
+            Ankara
+          </option>
+          <option
+            value="35"
+          >
+            İzmir
+          </option>
+          
+        </select>
+        
+      </div>
+    </div>
+    <div
+      class="filter-row"
+    >
+      <label>
+        Arama Yapın.
+      </label>
+      <div>
+        
+        <input
+          class="form-control search-input"
+          placeholder="Lütfen Arama Yapın.."
+          type="text"
+        />
+        
+      </div>
+    </div>
+    <div
+      class="btn-group filter-buttons"
+    >
+      <button
+        class="btn btn-primary"
+        data-test-id="search-btn"
+        type="button"
+      >
+        
+        Ara
+        
+      </button>
+      <button
+        class="btn btn-primary"
+        data-test-id="clear-btn"
+        type="button"
+      >
+        
+        Temizle
+        
+      </button>
+    </div>
+  </div>
+  <div
+    class="col-md-9"
+  >
+    <!--v-if-->
+    <div>
+      <div
+        class="filter-detail"
+      >
+        <h1>
+          Toplam 9 adet ilan bulundu..
+        </h1>
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            frontend developer 2
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul üsküdar adresinde tam zamanlı çalışacak frontend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Backend developer 2
+          </h5>
+          <p
+            class="card-text"
+          >
+            Ankara mamak adresinde  parttime(remote) çalışacak backend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            mobile developer 2
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul fatih lokasyonunda hibrit olarak haftada 2 gün ofis 3 gün remote şeklinde çalışacak android developer aranmaktadır
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      
+      <nav
+        class="job-pagination"
+      >
+        <ul
+          class="pagination"
+        >
+          
+          <li
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              Önceki
+              
+            </a>
+          </li>
+          
+          <li
+            active="false"
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              1
+              
+            </a>
+          </li>
+          <li
+            active="true"
+            class="page-item active"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              2
+              
+            </a>
+          </li>
+          <li
+            active="false"
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              3
+              
+            </a>
+          </li>
+          
+          <li
+            class="page-item"
+          >
+            <a
+              class="page-link"
+              href="#"
+            >
+              
+              Sonraki
+              
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div
+  class="row"
+>
+  <div
+    class="col-md-3"
+  >
+    <div
+      class="filter-row"
+    >
+      <label>
+        Şehir Seçim.
+      </label>
+      <div>
+        
+        <select
+          class="form-select"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Seçim Yapın
+          </option>
+          
+          <option
+            value="34"
+          >
+            İstanbul
+          </option>
+          <option
+            value="6"
+          >
+            Ankara
+          </option>
+          <option
+            value="35"
+          >
+            İzmir
+          </option>
+          
+        </select>
+        
+      </div>
+    </div>
+    <div
+      class="filter-row"
+    >
+      <label>
+        Arama Yapın.
+      </label>
+      <div>
+        
+        <input
+          class="form-control search-input"
+          placeholder="Lütfen Arama Yapın.."
+          type="text"
+        />
+        
+      </div>
+    </div>
+    <div
+      class="btn-group filter-buttons"
+    >
+      <button
+        class="btn btn-primary"
+        data-test-id="search-btn"
+        type="button"
+      >
+        
+        Ara
+        
+      </button>
+      <button
+        class="btn btn-primary"
+        data-test-id="clear-btn"
+        type="button"
+      >
+        
+        Temizle
+        
+      </button>
+    </div>
+  </div>
+  <div
+    class="col-md-9"
+  >
+    <!--v-if-->
+    <div>
+      <div
+        class="filter-detail"
+      >
+        <h1>
+          Toplam 3 adet ilan bulundu..
+        </h1>
+        <p>
+          <!--v-if-->
+          <span>
+             "front" 
+          </span>
+           arama sonucu 
+        </p>
+      </div>
+      <!--v-if-->
+      
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            frontend developer 1
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul üsküdar adresinde tam zamanlı çalışacak frontend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            frontend developer 2
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul üsküdar adresinde tam zamanlı çalışacak frontend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="card job"
+      >
+        <img
+          class="card-img-top"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            frontend developer 3
+          </h5>
+          <p
+            class="card-text"
+          >
+            İstanbul üsküdar adresinde tam zamanlı çalışacak frontend developer arayışımız devam etmektedir
+          </p>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            
+            Detay
+            
+          </button>
+        </div>
+      </div>
+      
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;

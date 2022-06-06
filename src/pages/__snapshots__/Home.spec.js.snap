@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="landing"
+>
+  <div
+    class="landing-detail"
+  >
+    <h1>
+      Aradığın işe anında kavuş
+    </h1>
+    <p>
+      Öne çıkan ilanları görmek için hemen şehrine göre ara ve ilanları gör
+    </p>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <select
+        class="form-select"
+      >
+        <option
+          disabled=""
+          value=""
+        >
+          Seçim Yapın
+        </option>
+        
+        <option
+          value="34"
+        >
+          İstanbul
+        </option>
+        <option
+          value="6"
+        >
+          Ankara
+        </option>
+        <option
+          value="35"
+        >
+          İzmir
+        </option>
+        
+      </select>
+    </div>
+    <div
+      class="col"
+    >
+      <input
+        class="form-control search-input"
+        placeholder="Lütfen Arama Yapın.."
+        type="text"
+      />
+    </div>
+    <div
+      class="col-md-2"
+    >
+      <button
+        class="btn btn-primary"
+        type="button"
+      >
+        
+        Ara
+        
+      </button>
+    </div>
+  </div>
+</div>
+`;

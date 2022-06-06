@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+yellow='\033[0;33m'
+no_color='\033[0m'
+
+echo -e "\n${yellow}Executing pre-commit hook${no_color}\n"
+npm run prettier
+npm run eslint
+npm run test
+git add .
+echo -e "\n${yellow}Finish pre-commit hook${no_color}\n"
