@@ -1,29 +1,26 @@
-# kariyer-case
+## Not
 
-## Project setup
+- Vue.js'i en son 4,5 sene önce kullanmıştım(bu durumdan bahsetmiştim). O yüzden vue'yu baştan öğrenerek yaptım diyebilirim özellikle composition api ile beraber köklü bi değişim olmuş :)
+- Şu döneme özel vakit darlığım olduğundan testleri çok detaylı yazamadım (açıkçası çok test tecrübemde var diyemem). Daha geniş bir anıma gelseydi test case'leri ile ilgili best practice'leri daha iyi araştırıp uygulardım :)
 
-```
-npm install
-```
+# Neyi Neden kullandım
 
-### Compiles and hot-reloads for development
+### Mock Service Worker(msw)
 
-```
-npm run serve
-```
+Dataları çekmek için mock servis worker kurdum. Hem jest tarafında hemde normal component içerisinde burayı api olarak kullandım
 
-### Compiles and minifies for production
+### Scss
 
-```
-npm run build
-```
+Projedeki scss variable'larını tüm scss'lerde import etmeden kullanabilmek için vue.config.js içerisinden global olarak import ettim
 
-### Lints and fixes files
+### Eslint Prettier
 
-```
-npm run lint
-```
+Kod düzeninini sağlamak için eslint ve prettier kurdum bunları birbiriyle ilişkilendirdim
 
-### Customize configuration
+### Jest, vue-test-utils
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Test işlemlerini jest ve vue test utils ile yaptım. Pages katmanını snapshot test yaptım.
+
+### Husky
+
+Git hookları için husky kurdum. Commit etmeden önce tüm dosyaları prettier configine göre formatlayıp eslint configine göre fixleyip testler'de okeyse commitleme işlemini gerçekleştirir. Eğer bunlardan birince bi hata çıkarsa commitlemez

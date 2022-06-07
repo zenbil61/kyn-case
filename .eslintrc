@@ -26,7 +26,7 @@
     "prettier"
   ],
   "plugins": ["prettier"],
-
+  "ignorePatterns": ["dist"],
   "rules": {
     // override/add rules settings here, such as:
     "prettier/prettier": "error",
