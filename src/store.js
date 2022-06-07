@@ -48,7 +48,7 @@ const store = createStore({
   },
   getters: {
     cityName: (state) => (id) => {
-      return state.cities.find((x) => x.value == id).text;
+      return state.cities.find((city) => city.value == id).text;
     },
   },
 });

@@ -38,7 +38,8 @@ const handleBack = () => {
 };
 
 onMounted(() => {
-  if (!store.state.cities || store.state.cities.length < 1) {
+  const hasCities = !store.state.cities || store.state.cities.length < 1;
+  if (hasCities) {
     router.push('/');
     return;
   }

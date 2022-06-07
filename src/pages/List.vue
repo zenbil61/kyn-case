@@ -85,6 +85,7 @@ const cities = computed(() => store.state.cities);
 const handleDetail = (id) => {
   router.push(ROUTE.PAGE_JOBS_DETAIL.replace(':id', id));
 };
+
 const handleClear = () => {
   router.replace({ query: null }).then((resp) => {
     filter.value = {
@@ -93,6 +94,7 @@ const handleClear = () => {
     getJobs();
   });
 };
+
 const handleSearch = () => {
   const isSearchChange = route.query.search !== filter.value.search;
   const isCityChange = route.query.city !== filter.value.city;
@@ -103,6 +105,7 @@ const handleSearch = () => {
 
   router.replace({ query: filter.value }).then((resp) => getJobs());
 };
+
 const handlePage = (page) => {
   const oldPage = filter.value.page;
   const isLastPage = filter.value.page >= jobs_data.value.totalPage;
@@ -115,8 +118,10 @@ const handlePage = (page) => {
   } else if (typeof page === 'number') {
     filter.value.page = page;
   }
-  // aynı sayfaya tıklarsa fazla request atmasın kontrolü
-  if (filter.value.page !== oldPage) handleSearch();
+
+  if (filter.value.page !== oldPage) {
+    handleSearch();
+  }
 };
 
 const getJobs = () => {
@@ -126,7 +131,8 @@ const getJobs = () => {
 };
 
 onMounted(() => {
-  if (!store.state.cities || store.state.cities.length < 1) {
+  const hasCities = !store.state.cities || store.state.cities.length < 1;
+  if (hasCities) {
     router.push('/');
     return;
   }
